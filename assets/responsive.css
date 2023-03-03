@@ -1,0 +1,49 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #services .column {
+    width: 100%;
+  }
+  #IELTS .card-text {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #IELTS .card-text {
+    width: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #IELTS .card-text {
+    width: 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .column {
+    float: none;
+    width: 33%;
+    justify-content: center;
+  }
+  .row {
+    float: none;
+    justify-content: center;
+  }
+  .ico {
+    width: 4rem;
+    height: 4rem;
+  }
+  #mentor .subt {
+    padding: 5%;
+    width: 25%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* body { color:chartreuse;}*/
+}

@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+/*------------------------------------ Services------------------------------------- */
+#services .column {
+  float: none;
+  width: 33.33%;
+  padding: 3%;
+  justify-content: center;
+}
+#services .row{
+  float: none;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 0;
+}
+.ico {
+  width: 5rem;
+  height: 5rem;
+}
+.sertext {
+  display: inline-flex;
+  text-align: left;
+}
+
+/*------------------------------------ IELTS-------------------------------------*/
+#IELTS{
+  background: linear-gradient(to right, rgb(31, 31, 31), rgba(255, 0, 0, 0)),url("Images/IELTS.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#IELTS .container{
+  padding: 5%;
+  height:100%;
+}
+#IELTS .ieltsbox{
+padding: 5%;
+}
+#IELTS .card-text{
+  width: 37%;
+}
+.btn-purple {
+  background: #00D3FF;
+  background: -webkit-linear-gradient(to right, #00D3FF, #4e54c8);
+  background: linear-gradient(to right, #00D3FF, #4e54c8);
+  color: #fff;
+  border-radius: 0;
+}
+
+/*------------------------------------ What our Students say-------------------------------------
+/* Elements inspired from AMP (amp.dev) *
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|Poppins:400,700&display=swap');
+
+a {
+  color: var(#F4FAFF);
+  text-decoration: none;
+}
+
+.row {
+  margin-bottom: 1.5rem;
+}
+
+/* ----- Element styles ----- *
+#students .gradient {
+  color: #fff;
+  background: linear-gradient(225deg, #00dcc0 0, #005af0 75%);
+}
+
+#students button {
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  line-height: 1.3em;
+  padding: 1em 2em;
+  margin-right: 1.5em;
+  border: 0;
+  border-radius: 3px;
+  background-color: #fff;
+
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, .25);
+  transition:
+    transform .3s cubic-bezier(.25, .1, .25, 1),
+    box-shadow .3s cubic-bezier(.25, .1, .25, 1);
+
+  cursor: pointer;
+}
+
+#students .button--arrow {
+  display: inline-flex;
+  justify-content: center;
+  box-sizing: initial;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.5em;
+  overflow: hidden;
+  font-size: 1em;
+  fill: #fff;
+  background-color: #005af0;
+  border-radius: 0;
+}
+
+.button--arrow:hover {
+  transform: translateX(0.5em);
+}
+
+.button--arrow:hover svg {
+  animation: run .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#students .form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+#students .form-inline button:hover {
+  background-color: royalblue;
+}
+/*------------------------------------ Talk to your Mentor-------------------------------------
+background-color:#006EFF;
+ background: url("Images/strip.svg"),#3F6CB5 no-repeat 
+ rgb(128,0,128);
+  
+*/
+#mentor{
+  background: linear-gradient( rgb(128,0,128,0.3), rgb(128,0,128,0.3)),url("Images/strip.svg") no-repeat;
+  background-size: cover;
+}
+#mentor .container{
+  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline label {
+  margin: 0.313rem 0.625rem 0.313rem 0;
+}
+.form-inline input {
+  padding: 0.313rem;
+  background-color: transparent;
+  border: 0.063rem solid gold;
+  border-radius: 0;
+}
+.form-inline textarea {
+  padding: 0.313rem;
+  background-color: transparent;
+  border: 0.063rem solid gold;
+  border-radius: 0;
+}
+#mentor .subt{
+  padding: 5%;
+}
+.btn-orange{
+  background: #fc4a1a;
+  background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733, );
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+  color: #fff;
+  border-radius: 0;
+}
+
