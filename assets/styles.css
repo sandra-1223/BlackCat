@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+/*------------------------------------ Services------------------------------------- */
+.ico {
+  width: 5rem;
+  height: 5rem;
+}
+.sertext {
+  display: inline-flex;
+  text-align: left;
+}
+
+/*------------------------------------ IELTS-------------------------------------*/
+#IELTS{
+  background: linear-gradient(to right, rgb(31, 31, 31), rgba(255, 0, 0, 0)),url("Images/IELTS.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#IELTS .container{
+  padding: 5%;
+  height:100%;
+}
+#IELTS .ieltsbox{
+padding: 5%;
+}
+#IELTS .card-text{
+ /* width: 37%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-purple {
+  background: #00D3FF;
+  background: -webkit-linear-gradient(to right, #00D3FF, #4e54c8);
+  background: linear-gradient(to right, #00D3FF, #4e54c8);
+  color: #fff;
+  border-radius: 0;
+}
+
+/*------------------------------------ What our Students say-------------------------------------*/
+#students .container{
+  height:100%;
+  border-radius: 3%;
+  padding: 3%;
+}
+#students button {
+  border: 0;
+}
+/*------------------------------------ Talk to your Mentor-------------------------------------*/
+#mentor{
+  background: linear-gradient( rgb(128,0,128,0.3), rgb(128,0,128,0.3)),url("Images/strip.svg") no-repeat;
+  background-size: cover;
+}
+#mentor .container{
+  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline label {
+  margin: 0.313rem 0.625rem 0.313rem 0;
+}
+.form-inline input {
+  padding: 0.313rem;
+  background-color: transparent;
+  border: 0.063rem solid gold;
+  border-radius: 0;
+}
+.form-inline textarea {
+  padding: 0.313rem;
+  background-color: transparent;
+  border: 0.063rem solid gold;
+  border-radius: 0;
+}
+#mentor .subt{
+  padding: 5%;
+}
+.btn-orange{
+  background: #fc4a1a;
+  background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733, );
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+  color: #fff;
+  border-radius: 0;
+}
+
